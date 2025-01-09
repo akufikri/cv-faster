@@ -13,5 +13,11 @@ export default {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["light", "dark", "lofi", "bumblebee"],
+  },
+  plugins: [
+    require('daisyui'),
+    require('tailwindcss-dotted-background')
+  ],
 };
